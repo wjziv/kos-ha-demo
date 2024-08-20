@@ -25,13 +25,13 @@ It should be noted, this repository started only with the following in its tree:
 
 ```sh
 ./kos-ha-demo
- ├ README.md
- ├ docker-compose.yaml
- └ /config
+├ README.md
+├ docker-compose.yaml
+└ /config
 ```
 
 Nothing in the `./config` directory.
-Its only purpose was to map the volume into the HomeAssistant container.
+Its only purpose was to map the volume into the Home Assistant container.
 
 Keep this in mind, for easy access to reosurces inside your own HA container, should you deploy this way as well.
 
