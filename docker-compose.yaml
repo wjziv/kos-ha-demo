@@ -1,0 +1,20 @@
+
+services:
+  # Optionally set up a MariaDB as an external DB, if desired.
+
+  # Optionally set up an external Zigbee hub integrator as an external service, if desired.
+  #   If doing so, remember to map the USB device to the Zigbee integrator container.
+
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: homeassistant
+    privileged: true
+    restart: unless-stopped
+    environment:
+      TZ: America/New_York
+    volumes:
+      - ./config:/config
+      # - /run/dbus:/run/dbus:ro  # Uncomment if you want to use bluetooth integrations.
+    network_mode: host
+    ports:
+      - 8123:8123

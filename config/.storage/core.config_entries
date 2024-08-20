@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "created_at": "2024-08-17T15:37:06.834501+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "01J5GFRD0J11YFKNPTA2EQ7RGX",
+        "minor_version": 1,
+        "modified_at": "2024-08-17T15:37:06.834503+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-17T15:46:04.537111+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "01J5GG8T3SE2KKRRK2Q78AJ4WK",
+        "minor_version": 1,
+        "modified_at": "2024-08-17T15:46:04.537120+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-17T15:46:04.551411+00:00",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "disabled_by": null,
+        "domain": "google_translate",
+        "entry_id": "01J5GG8T47W34BP3R20RJ09CVZ",
+        "minor_version": 1,
+        "modified_at": "2024-08-17T15:46:04.551412+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Google Translate text-to-speech",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-17T15:46:04.635639+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "radio_browser",
+        "entry_id": "01J5GG8T6V43FF1R6FX0QEE4Z6",
+        "minor_version": 1,
+        "modified_at": "2024-08-17T15:46:04.635641+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Radio Browser",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-17T15:46:04.644276+00:00",
+        "data": {
+          "track_home": true
+        },
+        "disabled_by": null,
+        "domain": "met",
+        "entry_id": "01J5GG8T747BK003CH3AYYVXCB",
+        "minor_version": 1,
+        "modified_at": "2024-08-17T15:46:04.644277+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Home",
+        "unique_id": null,
+        "version": 1
+      }
+    ]
+  }
+}
