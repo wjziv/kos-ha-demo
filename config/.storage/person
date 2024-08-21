@@ -6,9 +6,10 @@
     "items": [
       {
         "id": "walter",
-        "name": "walter",
+        "name": "admin",
         "user_id": "0d05cf165cf449c39f2a2de00143cb32",
-        "device_trackers": []
+        "device_trackers": [],
+        "picture": null
       }
     ]
   }

@@ -22,7 +22,7 @@
         ],
         "is_owner": true,
         "is_active": true,
-        "name": "walter",
+        "name": "admin",
         "system_generated": false,
         "local_only": false
       }
@@ -48,7 +48,7 @@
         "auth_provider_type": "homeassistant",
         "auth_provider_id": null,
         "data": {
-          "username": "walter"
+          "username": "admin"
         }
       }
     ],
@@ -81,9 +81,9 @@
         "access_token_expiration": 1800.0,
         "token": "d268d72b79885654bd969c24c8827cac5b39887be8d8e3defbe7cc04d95293e53e5523637385673ece93e746afd263fcb5a12f7261dfbc19f8a98448cd701038",
         "jwt_key": "dd3e9fdef445026ccf59554e83f496193cb0e993df0a2b149b5e5a6d74dc06e04f5735131334603e546c8ef09e30de7464954253d7182a6a3bcf502943d97c15",
-        "last_used_at": "2024-08-18T12:04:29.768059+00:00",
+        "last_used_at": "2024-08-21T19:07:03.512671+00:00",
         "last_used_ip": "127.0.0.1",
-        "expire_at": 1731758669.768059,
+        "expire_at": 1732043223.512671,
         "credential_id": "7cb2f829dcf14a659a75b882b3ff8d04",
         "version": "2024.8.2"
       }
